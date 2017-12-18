@@ -13,7 +13,7 @@
 
 A customisable rotary wheel UI component.
 
-<p align="center"><img src="http://i.giphy.com/xUOxffXe2Trd7oZR72.gif" width="248" height="391"/></p>
+<p align="left"><img src="http://i.giphy.com/xUOxffXe2Trd7oZR72.gif" width="248" height="391"/></p>
 
 ## Installing
 
