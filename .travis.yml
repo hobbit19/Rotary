@@ -8,7 +8,4 @@ xcode_project: Rotary.xcodeproj
 xcode_scheme: Rotary
 osx_image: xcode9
 xcode_sdk: iphonesimulator11.0
-
-script: 
- - xcodebuild -scheme Rotary -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=11.0' test
  

@@ -8,10 +8,6 @@
 
 import Foundation
 
-func ==<T>(lhs: RotaryWheelSector<T>, rhs: RotaryWheelSector<T>) -> Bool {
-    return lhs.title == rhs.title
-}
-
 struct RotaryWheelSector<T>: Equatable where T: WheelOption {
     
     let title: String
@@ -43,19 +39,10 @@ struct RotaryWheelSector<T>: Equatable where T: WheelOption {
         return x/Double(totalSectors)
     }
     
-}
-
-extension RotaryWheelSector: WheelOption {
+    //MARK: Equatable
     
-    var wheelOptionTitle: String {
-        return title
-    }
-}
-
-extension RotaryWheelSector: CustomStringConvertible {
-    
-    var description: String {
-        return "Index: \(String(describing: index)), Title: \(title), Min: \(minValue), Mid: \(midValue), Max: \(maxValue)"
+    static func ==<T>(lhs: RotaryWheelSector<T>, rhs: RotaryWheelSector<T>) -> Bool {
+        return lhs.title == rhs.title
     }
     
 }
