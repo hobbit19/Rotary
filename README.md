@@ -17,8 +17,6 @@ A customisable rotary wheel UI component.
 
 ## Usage
 
-The following closure 'rotationEnded' is called immediately after layout. If you do not want this behaviour, then call layout before you assign the closure.
-
 ```swift
 import Rotary
 
@@ -44,7 +42,9 @@ wheelControl.styling = RotaryWheelStyling(font: FontManager.subtitle, textColour
 view.addSubview(wheelControl)
 ```
 
-Set up your constraints on the wheel such that the wheel is restricted with an aspect ratio of 1:1 and has a fixed width or height. Try playing around with a width of 400 points and a font size of UIFont.systemFontOfSize(20) to get your started. Checkout [DancerWheel](https://github.com/rob-nash/DancerWheel) for an example implementation.
+The closure 'rotationEnded' is called immediately after layout. If you do not want this behaviour, call layout before you assign the closure.
+
+Set up your constraints on the wheel such that the wheel is restricted with an aspect ratio of 1:1 and has a fixed width or height. Try playing around with a width of 400 points and a font size of UIFont.systemFontOfSize(20) to get you started. Checkout [DancerWheel](https://github.com/rob-nash/DancerWheel) for an example implementation.
 
 
 ## Installing
