@@ -20,10 +20,13 @@ A customisable rotary wheel UI component.
 ```swift
 import Rotary
 
-struct Dancer: WheelOption {
+struct Dancer: Equatable, WheelOption {
     let name: String
     var wheelOptionTitle: String {
         return name
+    }
+    static func ==(lhs: Dancer, rhs: Dancer) -> Bool {
+        return lhs.name == rhs.name
     }
 }
 
