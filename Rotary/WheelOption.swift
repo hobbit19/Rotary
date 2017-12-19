@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol WheelOption {
+public protocol WheelOption: Equatable {
     var wheelOptionTitle: String { get }
 }
