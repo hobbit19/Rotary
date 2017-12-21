@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		500C6CA61FEBD0C4009A074B /* Rotary_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 500C6CA41FEBD0C4009A074B /* Rotary_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		500F19C01FE6901800C43834 /* RotaryWheelTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19B81FE6901700C43834 /* RotaryWheelTrack.swift */; };
 		500F19C11FE6901800C43834 /* RotaryWheelStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19B91FE6901700C43834 /* RotaryWheelStyling.swift */; };
 		500F19C21FE6901800C43834 /* CGPoint+Trigonometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19BA1FE6901700C43834 /* CGPoint+Trigonometry.swift */; };
@@ -16,12 +15,19 @@
 		500F19C51FE6901800C43834 /* WheelOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19BD1FE6901700C43834 /* WheelOption.swift */; };
 		500F19C61FE6901800C43834 /* RotaryWheelSector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19BE1FE6901700C43834 /* RotaryWheelSector.swift */; };
 		500F19C71FE6901800C43834 /* RotaryWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19BF1FE6901700C43834 /* RotaryWheelView.swift */; };
+		50A515BE1FEBF180007741CB /* CGPoint+Trigonometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19BA1FE6901700C43834 /* CGPoint+Trigonometry.swift */; };
+		50A515BF1FEBF180007741CB /* RotaryWheelControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19BB1FE6901700C43834 /* RotaryWheelControl.swift */; };
+		50A515C01FEBF180007741CB /* RotaryWheelSector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19BE1FE6901700C43834 /* RotaryWheelSector.swift */; };
+		50A515C11FEBF180007741CB /* RotaryWheelStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19B91FE6901700C43834 /* RotaryWheelStyling.swift */; };
+		50A515C21FEBF180007741CB /* RotaryWheelTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19B81FE6901700C43834 /* RotaryWheelTrack.swift */; };
+		50A515C31FEBF180007741CB /* RotaryWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19BF1FE6901700C43834 /* RotaryWheelView.swift */; };
+		50A515C41FEBF180007741CB /* UIView+Trigonometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19BC1FE6901700C43834 /* UIView+Trigonometry.swift */; };
+		50A515C51FEBF180007741CB /* WheelOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F19BD1FE6901700C43834 /* WheelOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		500C6CA21FEBD0C4009A074B /* Rotary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rotary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		500C6CA41FEBD0C4009A074B /* Rotary_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rotary_tvOS.h; sourceTree = "<group>"; };
-		500C6CA51FEBD0C4009A074B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		500C6CA51FEBD0C4009A074B /* Rotary-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rotary-tvOS.plist"; sourceTree = "<group>"; };
 		500F19AD1FE68FCE00C43834 /* Rotary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rotary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		500F19B11FE68FCE00C43834 /* Rotary-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rotary-iOS.plist"; sourceTree = "<group>"; };
 		500F19B81FE6901700C43834 /* RotaryWheelTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotaryWheelTrack.swift; sourceTree = "<group>"; };
@@ -52,20 +58,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		500C6CA31FEBD0C4009A074B /* Rotary-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				500C6CA41FEBD0C4009A074B /* Rotary_tvOS.h */,
-				500C6CA51FEBD0C4009A074B /* Info.plist */,
-			);
-			path = "Rotary-tvOS";
-			sourceTree = "<group>";
-		};
 		500F19A31FE68FCE00C43834 = {
 			isa = PBXGroup;
 			children = (
-				500F19AF1FE68FCE00C43834 /* Rotary-iOS */,
-				500C6CA31FEBD0C4009A074B /* Rotary-tvOS */,
+				500F19AF1FE68FCE00C43834 /* Rotary */,
 				500F19AE1FE68FCE00C43834 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,7 +75,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		500F19AF1FE68FCE00C43834 /* Rotary-iOS */ = {
+		500F19AF1FE68FCE00C43834 /* Rotary */ = {
 			isa = PBXGroup;
 			children = (
 				500F19BA1FE6901700C43834 /* CGPoint+Trigonometry.swift */,
@@ -91,8 +87,9 @@
 				500F19BC1FE6901700C43834 /* UIView+Trigonometry.swift */,
 				500F19BD1FE6901700C43834 /* WheelOption.swift */,
 				500F19B11FE68FCE00C43834 /* Rotary-iOS.plist */,
+				500C6CA51FEBD0C4009A074B /* Rotary-tvOS.plist */,
 			);
-			path = "Rotary-iOS";
+			path = Rotary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +99,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500C6CA61FEBD0C4009A074B /* Rotary_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A515C21FEBF180007741CB /* RotaryWheelTrack.swift in Sources */,
+				50A515BF1FEBF180007741CB /* RotaryWheelControl.swift in Sources */,
+				50A515C51FEBF180007741CB /* WheelOption.swift in Sources */,
+				50A515C01FEBF180007741CB /* RotaryWheelSector.swift in Sources */,
+				50A515C31FEBF180007741CB /* RotaryWheelView.swift in Sources */,
+				50A515BE1FEBF180007741CB /* CGPoint+Trigonometry.swift in Sources */,
+				50A515C41FEBF180007741CB /* UIView+Trigonometry.swift in Sources */,
+				50A515C11FEBF180007741CB /* RotaryWheelStyling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +246,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Rotary-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Rotary-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertnash.Rotary-tvOS";
@@ -264,7 +268,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Rotary-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Rotary-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertnash.Rotary-tvOS";
@@ -400,7 +404,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Rotary-iOS/Rotary-iOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Rotary-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -423,7 +427,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Rotary-iOS/Rotary-iOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Rotary-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

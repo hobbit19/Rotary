@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "500F19AC1FE68FCE00C43834"
-               BuildableName = "Rotary_iOS.framework"
+               BuildableName = "Rotary.framework"
                BlueprintName = "Rotary-iOS"
                ReferencedContainer = "container:Rotary.xcodeproj">
             </BuildableReference>
@@ -48,7 +48,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "500F19AC1FE68FCE00C43834"
-            BuildableName = "Rotary_iOS.framework"
+            BuildableName = "Rotary.framework"
             BlueprintName = "Rotary-iOS"
             ReferencedContainer = "container:Rotary.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "500F19AC1FE68FCE00C43834"
-            BuildableName = "Rotary_iOS.framework"
+            BuildableName = "Rotary.framework"
             BlueprintName = "Rotary-iOS"
             ReferencedContainer = "container:Rotary.xcodeproj">
          </BuildableReference>
