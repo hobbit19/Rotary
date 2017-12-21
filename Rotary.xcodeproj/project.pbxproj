@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		500F19AD1FE68FCE00C43834 /* Rotary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rotary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		500F19B11FE68FCE00C43834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		500F19AD1FE68FCE00C43834 /* Rotary_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rotary_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		500F19B11FE68FCE00C43834 /* Rotary-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rotary-iOS.plist"; sourceTree = "<group>"; };
 		500F19B81FE6901700C43834 /* RotaryWheelTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotaryWheelTrack.swift; sourceTree = "<group>"; };
 		500F19B91FE6901700C43834 /* RotaryWheelStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotaryWheelStyling.swift; sourceTree = "<group>"; };
 		500F19BA1FE6901700C43834 /* CGPoint+Trigonometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Trigonometry.swift"; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		500F19AE1FE68FCE00C43834 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				500F19AD1FE68FCE00C43834 /* Rotary.framework */,
+				500F19AD1FE68FCE00C43834 /* Rotary_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,7 +68,7 @@
 				500F19BF1FE6901700C43834 /* RotaryWheelView.swift */,
 				500F19BC1FE6901700C43834 /* UIView+Trigonometry.swift */,
 				500F19BD1FE6901700C43834 /* WheelOption.swift */,
-				500F19B11FE68FCE00C43834 /* Info.plist */,
+				500F19B11FE68FCE00C43834 /* Rotary-iOS.plist */,
 			);
 			path = Rotary;
 			sourceTree = "<group>";
@@ -86,9 +86,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		500F19AC1FE68FCE00C43834 /* Rotary */ = {
+		500F19AC1FE68FCE00C43834 /* Rotary-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 500F19B51FE68FCE00C43834 /* Build configuration list for PBXNativeTarget "Rotary" */;
+			buildConfigurationList = 500F19B51FE68FCE00C43834 /* Build configuration list for PBXNativeTarget "Rotary-iOS" */;
 			buildPhases = (
 				500F19A81FE68FCE00C43834 /* Sources */,
 				500F19A91FE68FCE00C43834 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = Rotary;
+			name = "Rotary-iOS";
 			productName = Rotary;
-			productReference = 500F19AD1FE68FCE00C43834 /* Rotary.framework */;
+			productReference = 500F19AD1FE68FCE00C43834 /* Rotary_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				500F19AC1FE68FCE00C43834 /* Rotary */,
+				500F19AC1FE68FCE00C43834 /* Rotary-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Rotary/Info.plist;
+				INFOPLIST_FILE = "Rotary-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -312,7 +312,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Rotary/Info.plist;
+				INFOPLIST_FILE = "Rotary-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		500F19B51FE68FCE00C43834 /* Build configuration list for PBXNativeTarget "Rotary" */ = {
+		500F19B51FE68FCE00C43834 /* Build configuration list for PBXNativeTarget "Rotary-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				500F19B61FE68FCE00C43834 /* Debug */,
