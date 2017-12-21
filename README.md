@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.org/rob-nash/rotary">
-        <img src="https://travis-ci.org/rob-nash/rotary.svg?branch=master" alt="Build" />
+    <a href="https://travis-ci.org/rob-nash/Rotary">
+        <img src="https://travis-ci.org/rob-nash/Rotary.svg?branch=master" alt="Build" />
     </a>
     <a href="https://twitter.com/nashytitz">
         <img src="https://img.shields.io/badge/contact-@nashytitz-blue.svg?style=flat" alt="Twitter: @nashytitz" />
