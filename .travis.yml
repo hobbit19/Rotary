@@ -9,4 +9,4 @@ osx_image: xcode9.3
 xcode_sdk: iphonesimulator11.3
 
 script: 
-- xcodebuild -scheme Rotary-iOS -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' test
+- xcodebuild -scheme Rotary-iOS -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'
