@@ -24,7 +24,7 @@ A customisable rotary wheel UI component.
 
 ![Image1](https://user-images.githubusercontent.com/14126999/42086646-a5905a42-7b8b-11e8-81bf-31e70a0d70e6.png)
 
-![Image2](https://user-images.githubusercontent.com/14126999/42086650-a933c5d0-7b8b-11e8-9c63-3999bff66a91.png)
+![Image2](https://user-images.githubusercontent.com/14126999/42087441-19c7335c-7b8e-11e8-9470-e18641173273.png)
 
 ## Usage
 
