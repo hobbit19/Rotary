@@ -9,11 +9,22 @@
     <a href="https://twitter.com/nashytitz">
         <img src="https://img.shields.io/badge/contact-@nashytitz-blue.svg?style=flat" alt="Twitter: @nashytitz" />
     </a>
+    <a href="https://codebeat.co/projects/github-com-rob-nash-rotary-master">
+        <img alt="codebeat badge" src="https://codebeat.co/badges/be7e7c92-5524-4b5d-83f3-9bf7879fe363" />
+    </a>
+    <a href="https://swift.org">
+        <img src="https://img.shields.io/badge/swift-4.1-green.svg?style=flat" alt="Swift: 4.1" />
+    </a>
+    <a href="https://developer.apple.com">
+        <img src="https://img.shields.io/badge/xcode-9+-green.svg?style=flat" alt="Xcode: 9+" />
+    </a>
 </p>
 
 A customisable rotary wheel UI component.
 
-<p align="left"><img src="http://i.giphy.com/3o752cCLAdeybritOM.gif" width="248" height="391"/></p>
+![Image1](https://user-images.githubusercontent.com/14126999/42086646-a5905a42-7b8b-11e8-81bf-31e70a0d70e6.png)
+
+![Image2](https://user-images.githubusercontent.com/14126999/42086650-a933c5d0-7b8b-11e8-9c63-3999bff66a91.png)
 
 ## Usage
 
@@ -47,8 +58,13 @@ view.addSubview(wheelControl)
 
 The closure 'rotationEnded' is called immediately after layout. If you do not want this behaviour, call layout before you assign the closure.
 
+## AutoLayout Constraints
+
 Set up your constraints on the wheel such that the wheel is restricted with an aspect ratio of 1:1 and has a fixed width or height. Try playing around with a width of 400 points and a font size of UIFont.systemFontOfSize(20) to get you started. Checkout [DancerWheel](https://github.com/rob-nash/DancerWheel) for an example implementation.
 
+<p align="left"><img src="http://i.giphy.com/3o752cCLAdeybritOM.gif" width="248" height="391"/></p>
+
+<p align="left"><img src="http://i.giphy.com/3oFzm9Tyl10swaglHy.gif" width="733" height="420"/></p>
 
 ## Installing
 
