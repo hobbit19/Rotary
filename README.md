@@ -60,11 +60,15 @@ The closure 'rotationEnded' is called immediately after layout. If you do not wa
 
 ## AutoLayout Constraints
 
-Set up your constraints on the wheel such that the wheel is restricted with an aspect ratio of 1:1 and has a fixed width or height. Try playing around with a width of 400 points and a font size of UIFont.systemFontOfSize(20) to get you started. Checkout [DancerWheel](https://github.com/rob-nash/DancerWheel) for an example implementation.
+Set up your constraints on the wheel such that the wheel is restricted with an aspect ratio of 1:1 and has a fixed width or height. Try playing around with a width of 400 points and a font size of UIFont.systemFontOfSize(20) to get you started.
 
 <p align="left"><img src="http://i.giphy.com/3o752cCLAdeybritOM.gif" width="248" height="391"/></p>
 
 <p align="left"><img src="http://i.giphy.com/3oFzm9Tyl10swaglHy.gif" width="733" height="420"/></p>
+
+## Demo
+
+Run the `DancerWheel-iOS` scheme or `DancerWheel-tvOS` scheme.
 
 ## Installing
 
@@ -73,10 +77,3 @@ For the latest release, select the [release](https://github.com/rob-nash/rotary/
 ### Carthage:
 
 Add `github "rob-nash/rotary"` to your `Cartfile`.
-
-### Donations.
-<p>If you like this and you want to buy me a drink, use bitcoin.</p>
-
-![Bitcoin Image](Resources/Bitcoin.jpg)
-
-Bitcoin Address: 15Gj4DBTzSujnJrfRZ6ivrR9kDnWXNPvNQ
