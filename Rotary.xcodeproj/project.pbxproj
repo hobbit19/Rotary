@@ -94,9 +94,9 @@
 
 /* Begin PBXFileReference section */
 		500C6CA21FEBD0C4009A074B /* Rotary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rotary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		500C6CA51FEBD0C4009A074B /* Rotary-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rotary-tvOS.plist"; sourceTree = "<group>"; };
+		500C6CA51FEBD0C4009A074B /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		500F19AD1FE68FCE00C43834 /* Rotary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rotary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		500F19B11FE68FCE00C43834 /* Rotary-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rotary-iOS.plist"; sourceTree = "<group>"; };
+		500F19B11FE68FCE00C43834 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		500F19B81FE6901700C43834 /* RotaryWheelTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotaryWheelTrack.swift; sourceTree = "<group>"; };
 		500F19B91FE6901700C43834 /* RotaryWheelStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotaryWheelStyling.swift; sourceTree = "<group>"; };
 		500F19BA1FE6901700C43834 /* CGPoint+Trigonometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Trigonometry.swift"; sourceTree = "<group>"; };
@@ -124,12 +124,13 @@
 		50A5F87820E7975700F70B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50A5F87920E7975700F70B1C /* DancersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DancersViewController.swift; sourceTree = "<group>"; };
 		50A5F87A20E7975700F70B1C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
-		50A5F87B20E7975700F70B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A5F87B20E7975700F70B1C /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		50A5F87D20E7975700F70B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50A5F87F20E7975700F70B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50A5F88020E7975700F70B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50A5F88120E7975700F70B1C /* DancersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DancersViewController.swift; sourceTree = "<group>"; };
-		50A5F88220E7975700F70B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A5F88220E7975700F70B1C /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		50C6C2E9213BE14600E1A9D3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				500F19AF1FE68FCE00C43834 /* Rotary */,
-				50A5F8A220E7980800F70B1C /* Demo */,
+				50C6C2E8213BE0C100E1A9D3 /* Playgrounds */,
+				50A5F8A220E7980800F70B1C /* Apps */,
 				500F19AE1FE68FCE00C43834 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,8 +199,7 @@
 				500F19BF1FE6901700C43834 /* RotaryWheelView.swift */,
 				500F19BC1FE6901700C43834 /* UIView+Trigonometry.swift */,
 				500F19BD1FE6901700C43834 /* WheelOption.swift */,
-				500F19B11FE68FCE00C43834 /* Rotary-iOS.plist */,
-				500C6CA51FEBD0C4009A074B /* Rotary-tvOS.plist */,
+				50C6C2E6213BE00300E1A9D3 /* Config */,
 			);
 			path = Rotary;
 			sourceTree = "<group>";
@@ -226,7 +227,6 @@
 				50A5F87820E7975700F70B1C /* AppDelegate.swift */,
 				50A5F87920E7975700F70B1C /* DancersViewController.swift */,
 				50A5F87A20E7975700F70B1C /* NavigationController.swift */,
-				50A5F87B20E7975700F70B1C /* Info.plist */,
 			);
 			path = "DancerWheel-iOS";
 			sourceTree = "<group>";
@@ -250,19 +250,45 @@
 				50A5F87E20E7975700F70B1C /* Main.storyboard */,
 				50A5F88020E7975700F70B1C /* AppDelegate.swift */,
 				50A5F88120E7975700F70B1C /* DancersViewController.swift */,
-				50A5F88220E7975700F70B1C /* Info.plist */,
 			);
 			path = "DancerWheel-tvOS";
 			sourceTree = "<group>";
 		};
-		50A5F8A220E7980800F70B1C /* Demo */ = {
+		50A5F8A220E7980800F70B1C /* Apps */ = {
 			isa = PBXGroup;
 			children = (
 				50A5F86B20E7975700F70B1C /* DancerWheel-iOS */,
-				50A5F86320E7975700F70B1C /* DancerWheel-Shared */,
 				50A5F87C20E7975700F70B1C /* DancerWheel-tvOS */,
+				50A5F86320E7975700F70B1C /* DancerWheel-Shared */,
+				50C6C2E7213BE03D00E1A9D3 /* Config */,
 			);
-			path = Demo;
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		50C6C2E6213BE00300E1A9D3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				500F19B11FE68FCE00C43834 /* Info-iOS.plist */,
+				500C6CA51FEBD0C4009A074B /* Info-tvOS.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		50C6C2E7213BE03D00E1A9D3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				50A5F87B20E7975700F70B1C /* Info-iOS.plist */,
+				50A5F88220E7975700F70B1C /* Info-tvOS.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		50C6C2E8213BE0C100E1A9D3 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				50C6C2E9213BE14600E1A9D3 /* MyPlayground.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -558,7 +584,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Rotary-tvOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Config/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertnash.Rotary-tvOS";
@@ -580,7 +606,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Rotary-tvOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Config/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertnash.Rotary-tvOS";
@@ -716,7 +742,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Rotary-iOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Config/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -739,7 +765,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Rotary-iOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rotary/Config/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -760,7 +786,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Demo/DancerWheel-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Config/Info-iOS.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertnash.DancerWheel-iOS";
@@ -779,7 +805,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Demo/DancerWheel-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Config/Info-iOS.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertnash.DancerWheel-iOS";
@@ -799,7 +825,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Demo/DancerWheel-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Config/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertnash.DancerWheel-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -820,7 +846,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Demo/DancerWheel-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Config/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertnash.DancerWheel-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
