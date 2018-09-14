@@ -12,6 +12,9 @@
     <a href="https://codebeat.co/projects/github-com-rob-nash-rotary-master">
         <img alt="codebeat badge" src="https://codebeat.co/badges/be7e7c92-5524-4b5d-83f3-9bf7879fe363" />
     </a>
+    <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Frob-nash%2FRotary?ref=badge_shield" alt="FOSSA Status">
+        <img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Frob-nash%2FRotary.svg?type=shield"/>
+    </a>
     <a href="https://twitter.com/nashytitz">
         <img src="https://img.shields.io/badge/contact-@nashytitz-blue.svg?style=flat" alt="Twitter: @nashytitz" />
     </a>
