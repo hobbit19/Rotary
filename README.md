@@ -9,6 +9,7 @@
     <a href="https://img.shields.io/badge/carthage-compatible-brightgreen.svg">
         <img src="https://img.shields.io/badge/carthage-compatible-brightgreen.svg" alt="Carthage"/>
     </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Frob-nash%2FRotary?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Frob-nash%2FRotary.svg?type=shield"/></a>
     <a href="https://codebeat.co/projects/github-com-rob-nash-rotary-master">
         <img alt="codebeat badge" src="https://codebeat.co/badges/be7e7c92-5524-4b5d-83f3-9bf7879fe363" />
     </a>
@@ -73,3 +74,7 @@ Run the `DancerWheel-iOS` scheme or `DancerWheel-tvOS` scheme.
 2. Embed Binary
 
 [See Guide](https://github.com/rob-nash/Rotary/wiki/Installation)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frob-nash%2FRotary.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frob-nash%2FRotary?ref=badge_large)
