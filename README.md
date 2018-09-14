@@ -69,8 +69,7 @@ Run the `DancerWheel-iOS` scheme or `DancerWheel-tvOS` scheme.
 
 ## Installing
 
-For the latest release, select the [release](https://github.com/rob-nash/rotary/releases) tab.
+1. Run the [Carthage](https://github.com/Carthage/Carthage) command `carthage update`.
+2. Embed Binary
 
-### Carthage:
-
-Add `github "rob-nash/rotary"` to your `Cartfile`.
+![See Guide](https://github.com/rob-nash/Rotary/wiki/Installation)
