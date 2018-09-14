@@ -72,4 +72,4 @@ Run the `DancerWheel-iOS` scheme or `DancerWheel-tvOS` scheme.
 1. Run the [Carthage](https://github.com/Carthage/Carthage) command `carthage update`.
 2. Embed Binary
 
-![See Guide](https://github.com/rob-nash/Rotary/wiki/Installation)
+[See Guide](https://github.com/rob-nash/Rotary/wiki/Installation)
