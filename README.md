@@ -6,17 +6,17 @@
     <a href="https://travis-ci.org/rob-nash/Rotary">
         <img src="https://travis-ci.org/rob-nash/Rotary.svg?branch=master" alt="Build" />
     </a>
-    <a href="https://twitter.com/nashytitz">
-        <img src="https://img.shields.io/badge/contact-@nashytitz-blue.svg?style=flat" alt="Twitter: @nashytitz" />
+    <a href="https://img.shields.io/badge/carthage-compatible-brightgreen.svg">
+        <img src="https://img.shields.io/badge/carthage-compatible-brightgreen.svg" alt="Carthage"/>
     </a>
     <a href="https://codebeat.co/projects/github-com-rob-nash-rotary-master">
         <img alt="codebeat badge" src="https://codebeat.co/badges/be7e7c92-5524-4b5d-83f3-9bf7879fe363" />
     </a>
-    <a href="https://swift.org">
-        <img src="https://img.shields.io/badge/swift-4.1-green.svg?style=flat" alt="Swift: 4.1" />
+    <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Frob-nash%2FRotary?ref=badge_shield" alt="FOSSA Status">
+        <img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Frob-nash%2FRotary.svg?type=shield"/>
     </a>
-    <a href="https://developer.apple.com">
-        <img src="https://img.shields.io/badge/xcode-9+-green.svg?style=flat" alt="Xcode: 9+" />
+    <a href="https://twitter.com/nashytitz">
+        <img src="https://img.shields.io/badge/contact-@nashytitz-blue.svg?style=flat" alt="Twitter: @nashytitz" />
     </a>
 </p>
 
@@ -72,8 +72,7 @@ Run the `DancerWheel-iOS` scheme or `DancerWheel-tvOS` scheme.
 
 ## Installing
 
-For the latest release, select the [release](https://github.com/rob-nash/rotary/releases) tab.
+1. Run the [Carthage](https://github.com/Carthage/Carthage) command `carthage update`.
+2. Embed Binary
 
-### Carthage:
-
-Add `github "rob-nash/rotary"` to your `Cartfile`.
+[See Guide](https://github.com/rob-nash/Rotary/wiki/Installation)
