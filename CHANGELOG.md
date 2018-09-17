@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.0.0](https://github.com/rob-nash/Rotary/releases/tag/2.0.0) (2018-Sep-17)
+
+ - Swift 4.2
+
 ## [1.2.0](https://github.com/rob-nash/Rotary/releases/tag/1.2.0) (2018-Mar-17)
 
  - Added default implementation for `wheelOptionTitle`
